@@ -1,0 +1,24 @@
+//inicio newsletter
+.newsletter{
+    background-color: $adl;
+    padding: $sp5 ;
+    margin: 30px;
+    border-radius: 15px;
+}
+.newsletter__text{
+    color: white;
+    font-size: $fs5;
+    font-weight: $font-bold;
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+.newsletter__form{
+    width: 60%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 0 auto;
+
+}

@@ -1,0 +1,44 @@
+.contenedor-post{
+    background-color: #c7c8ca;
+    justify-content: center;
+}
+
+.bootstrap{
+    margin-top: 120px;
+}
+.bootstrap__title{
+    margin: 30px 0;
+}
+.bootstrap__text{
+    display: flex;
+    text-align: center;
+   
+}
+
+
+.post{
+    margin: 40px 0;
+    
+}
+.post__text{
+    padding: 30px 0;
+    
+}
+.post__imagen{
+    width: 70%;
+    border-radius: 10px;
+    display: flex;
+    margin: auto;
+    object-fit: cover;
+}
+
+.relacionados__container-card2{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.relacionados__titulo{
+    margin: $sp4 0;
+}
+
+

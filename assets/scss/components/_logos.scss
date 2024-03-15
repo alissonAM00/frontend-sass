@@ -1,0 +1,28 @@
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    &__imagen {
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+    }
+
+    &__imagen--small{
+        width: 30px;
+        height: 30px;
+        border-radius: 25px;
+    }
+    &__imagen--tiny{
+        width: 30px;
+        height: 30px;
+        border-radius: 25px;
+    }
+
+    &___brand {
+        font-size: 32px;
+        font-weight: 400;
+    }
+
+}

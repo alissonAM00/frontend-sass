@@ -1,0 +1,11 @@
+h1 {
+    @include formato-fuentes($fs1, $font-bold, $primary);
+}
+
+h2, h3, h4, h5, h6 {
+    @include formato-fuentes($fs2, $font-bold, $secondary);
+}
+
+p, small, label, span {
+    @include formato-fuentes($fs6, $font-medium, $primary);
+}
